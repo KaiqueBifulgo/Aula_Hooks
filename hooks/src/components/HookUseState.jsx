@@ -29,6 +29,7 @@ const HookUseState = () => {
             <input type="submit" value="Enviar" />
         </form>
         <p>Voce tem {amount} pets</p>
+        <hr />
     </div>
   )
 }
