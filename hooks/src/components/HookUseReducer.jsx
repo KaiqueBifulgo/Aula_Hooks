@@ -18,8 +18,7 @@ const HookUseReducer = () => {
     const taskReducer = (state, action) => {
 
         switch(action.type) {
-            case "ADD":
-
+            case "ADD": 
               const newTask = {
                 id: Math.random(),
                 breed: taskText
