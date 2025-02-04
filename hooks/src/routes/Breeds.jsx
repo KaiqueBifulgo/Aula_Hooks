@@ -1,3 +1,4 @@
+import HookUseCallBack from "../components/HookUseCallBack"
 import HookUseState from "../components/HookUseState"
 
 
@@ -6,6 +7,7 @@ const Breeds = () => {
     <div>
         <h1>Raças</h1>
         <HookUseState/>
+        <HookUseCallBack/>
     </div>
   )
 }
