@@ -20,7 +20,10 @@ const HookUseLayoutEffect = () => {
   console.log(name)
 
   return (
-    <div>HookUseLayoutEffect</div>
+    <div>
+      <h2>HookUseLayoutEffect</h2>
+      <p>Nome: {name}</p>
+    </div>
   )
 }
 
